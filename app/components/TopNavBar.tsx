@@ -32,11 +32,13 @@ export const TopNavBar = () => {
           {[
             //  ["", "Builder"],
             ["/resume-builder", "Builder"],
-            ["", "ATS"],
-            // ["https://smart-ats-checker-773qphkvsq2vzfmiucassh.streamlit.app/", "ATS"],
+            // ["", "ATS"],
+            ["https://smart-ats-checker-773qphkvsq2vzfmiucassh.streamlit.app/", "ATS"],
             
-            // ["/resume-parser", "Parser"],
-            ["", "Parser"],
+            ["/resume-parser", "Parser"],
+            // ["", "Parser"],
+            ["https://job-portal-latest.vercel.app/", "Jobs"],
+            ["https://next-gen-ai-ten.vercel.app/", "Interview Mock"],
           ].map(([href, text]) => (
             <Link
               key={text}
